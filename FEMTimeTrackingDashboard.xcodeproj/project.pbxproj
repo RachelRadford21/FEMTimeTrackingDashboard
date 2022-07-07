@@ -11,6 +11,30 @@
 		AB600D362875FDE8009B5D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D352875FDE8009B5D63 /* ContentView.swift */; };
 		AB600D382875FDE9009B5D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB600D372875FDE9009B5D63 /* Assets.xcassets */; };
 		AB600D3B2875FDE9009B5D63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB600D3A2875FDE9009B5D63 /* Preview Assets.xcassets */; };
+		AB600D422875FF27009B5D63 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB600D412875FF27009B5D63 /* data.json */; };
+		AB600D442875FFA2009B5D63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D432875FFA2009B5D63 /* Extensions.swift */; };
+		AB600D4728760000009B5D63 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB600D4628760000009B5D63 /* Rubik-Regular.ttf */; };
+		AB600D4928760008009B5D63 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB600D4828760008009B5D63 /* Rubik-Medium.ttf */; };
+		AB600D4B28760010009B5D63 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB600D4A28760010009B5D63 /* Rubik-Bold.ttf */; };
+		AB600D4D2876001C009B5D63 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB600D4C2876001C009B5D63 /* Rubik-Black.ttf */; };
+		AB600D5128760117009B5D63 /* TimeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5028760117009B5D63 /* TimeInfoModel.swift */; };
+		AB600D532876015B009B5D63 /* TimeFramesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D522876015B009B5D63 /* TimeFramesModel.swift */; };
+		AB600D5528760169009B5D63 /* DailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5428760169009B5D63 /* DailyModel.swift */; };
+		AB600D57287601F7009B5D63 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D56287601F7009B5D63 /* Helper.swift */; };
+		AB600D5928760754009B5D63 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5828760754009B5D63 /* ViewModel.swift */; };
+		AB600D5D28761B7C009B5D63 /* RobsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5C28761B7C009B5D63 /* RobsonView.swift */; };
+		AB600D5F28761B8B009B5D63 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5E28761B8B009B5D63 /* NameView.swift */; };
+		AB600D6128761D23009B5D63 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D6028761D23009B5D63 /* ImageView.swift */; };
+		AB600D6328761E24009B5D63 /* TimeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D6228761E24009B5D63 /* TimeFrameView.swift */; };
+		ABA71695287714280043AF7E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA71694287714280043AF7E /* CardView.swift */; };
+		ABA7169928772BF10043AF7E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7169828772BF10043AF7E /* ActivityView.swift */; };
+		ABA7169D28772DC70043AF7E /* TopActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7169C28772DC70043AF7E /* TopActivityCardView.swift */; };
+		ABA716A128772EAA0043AF7E /* ActivityHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A028772EAA0043AF7E /* ActivityHoursView.swift */; };
+		ABA716A328772F190043AF7E /* TimePeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A228772F190043AF7E /* TimePeriodView.swift */; };
+		ABA716A52877304B0043AF7E /* ActivityEllipisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A42877304B0043AF7E /* ActivityEllipisView.swift */; };
+		ABA716A7287731AD0043AF7E /* AllActivityCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A6287731AD0043AF7E /* AllActivityCardsView.swift */; };
+		ABA716A928775C0B0043AF7E /* RectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A828775C0B0043AF7E /* RectCardView.swift */; };
+		ABA716AD28776DC90043AF7E /* ActivityTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716AC28776DC90043AF7E /* ActivityTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +43,31 @@
 		AB600D352875FDE8009B5D63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB600D372875FDE9009B5D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB600D3A2875FDE9009B5D63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB600D412875FF27009B5D63 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB600D432875FFA2009B5D63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AB600D4628760000009B5D63 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		AB600D4828760008009B5D63 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		AB600D4A28760010009B5D63 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		AB600D4C2876001C009B5D63 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		AB600D4E2876002A009B5D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB600D5028760117009B5D63 /* TimeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInfoModel.swift; sourceTree = "<group>"; };
+		AB600D522876015B009B5D63 /* TimeFramesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFramesModel.swift; sourceTree = "<group>"; };
+		AB600D5428760169009B5D63 /* DailyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyModel.swift; sourceTree = "<group>"; };
+		AB600D56287601F7009B5D63 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AB600D5828760754009B5D63 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AB600D5C28761B7C009B5D63 /* RobsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobsonView.swift; sourceTree = "<group>"; };
+		AB600D5E28761B8B009B5D63 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		AB600D6028761D23009B5D63 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		AB600D6228761E24009B5D63 /* TimeFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrameView.swift; sourceTree = "<group>"; };
+		ABA71694287714280043AF7E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ABA7169828772BF10043AF7E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		ABA7169C28772DC70043AF7E /* TopActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopActivityCardView.swift; sourceTree = "<group>"; };
+		ABA716A028772EAA0043AF7E /* ActivityHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHoursView.swift; sourceTree = "<group>"; };
+		ABA716A228772F190043AF7E /* TimePeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePeriodView.swift; sourceTree = "<group>"; };
+		ABA716A42877304B0043AF7E /* ActivityEllipisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEllipisView.swift; sourceTree = "<group>"; };
+		ABA716A6287731AD0043AF7E /* AllActivityCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllActivityCardsView.swift; sourceTree = "<group>"; };
+		ABA716A828775C0B0043AF7E /* RectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectCardView.swift; sourceTree = "<group>"; };
+		ABA716AC28776DC90043AF7E /* ActivityTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +100,21 @@
 		AB600D322875FDE8009B5D63 /* FEMTimeTrackingDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				AB600D4E2876002A009B5D63 /* Info.plist */,
 				AB600D332875FDE8009B5D63 /* FEMTimeTrackingDashboardApp.swift */,
 				AB600D352875FDE8009B5D63 /* ContentView.swift */,
+				ABA7169628772B000043AF7E /* RobsonCardView */,
+				ABA7169728772B770043AF7E /* ActivityCardView */,
+				AB600D5828760754009B5D63 /* ViewModel.swift */,
+				AB600D4F287600EE009B5D63 /* Model */,
+				AB600D56287601F7009B5D63 /* Helper.swift */,
+				AB600D412875FF27009B5D63 /* data.json */,
+				ABA71694287714280043AF7E /* CardView.swift */,
+				ABA7169828772BF10043AF7E /* ActivityView.swift */,
+				AB600D452875FFE2009B5D63 /* Fonts */,
 				AB600D372875FDE9009B5D63 /* Assets.xcassets */,
 				AB600D392875FDE9009B5D63 /* Preview Content */,
+				AB600D432875FFA2009B5D63 /* Extensions.swift */,
 			);
 			path = FEMTimeTrackingDashboard;
 			sourceTree = "<group>";
@@ -65,6 +125,52 @@
 				AB600D3A2875FDE9009B5D63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB600D452875FFE2009B5D63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB600D4628760000009B5D63 /* Rubik-Regular.ttf */,
+				AB600D4828760008009B5D63 /* Rubik-Medium.ttf */,
+				AB600D4A28760010009B5D63 /* Rubik-Bold.ttf */,
+				AB600D4C2876001C009B5D63 /* Rubik-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AB600D4F287600EE009B5D63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB600D5028760117009B5D63 /* TimeInfoModel.swift */,
+				AB600D522876015B009B5D63 /* TimeFramesModel.swift */,
+				AB600D5428760169009B5D63 /* DailyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABA7169628772B000043AF7E /* RobsonCardView */ = {
+			isa = PBXGroup;
+			children = (
+				AB600D5C28761B7C009B5D63 /* RobsonView.swift */,
+				AB600D6028761D23009B5D63 /* ImageView.swift */,
+				AB600D5E28761B8B009B5D63 /* NameView.swift */,
+				AB600D6228761E24009B5D63 /* TimeFrameView.swift */,
+			);
+			path = RobsonCardView;
+			sourceTree = "<group>";
+		};
+		ABA7169728772B770043AF7E /* ActivityCardView */ = {
+			isa = PBXGroup;
+			children = (
+				ABA716A6287731AD0043AF7E /* AllActivityCardsView.swift */,
+				ABA716A828775C0B0043AF7E /* RectCardView.swift */,
+				ABA7169C28772DC70043AF7E /* TopActivityCardView.swift */,
+				ABA716A028772EAA0043AF7E /* ActivityHoursView.swift */,
+				ABA716A42877304B0043AF7E /* ActivityEllipisView.swift */,
+				ABA716A228772F190043AF7E /* TimePeriodView.swift */,
+				ABA716AC28776DC90043AF7E /* ActivityTitleView.swift */,
+			);
+			path = ActivityCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB600D3B2875FDE9009B5D63 /* Preview Assets.xcassets in Resources */,
+				AB600D4B28760010009B5D63 /* Rubik-Bold.ttf in Resources */,
+				AB600D4728760000009B5D63 /* Rubik-Regular.ttf in Resources */,
+				AB600D4D2876001C009B5D63 /* Rubik-Black.ttf in Resources */,
+				AB600D422875FF27009B5D63 /* data.json in Resources */,
 				AB600D382875FDE9009B5D63 /* Assets.xcassets in Resources */,
+				AB600D4928760008009B5D63 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +248,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA716A7287731AD0043AF7E /* AllActivityCardsView.swift in Sources */,
+				ABA71695287714280043AF7E /* CardView.swift in Sources */,
 				AB600D362875FDE8009B5D63 /* ContentView.swift in Sources */,
+				AB600D57287601F7009B5D63 /* Helper.swift in Sources */,
+				ABA716A928775C0B0043AF7E /* RectCardView.swift in Sources */,
+				AB600D5528760169009B5D63 /* DailyModel.swift in Sources */,
+				ABA7169D28772DC70043AF7E /* TopActivityCardView.swift in Sources */,
+				AB600D6328761E24009B5D63 /* TimeFrameView.swift in Sources */,
+				ABA716A328772F190043AF7E /* TimePeriodView.swift in Sources */,
+				AB600D442875FFA2009B5D63 /* Extensions.swift in Sources */,
+				AB600D6128761D23009B5D63 /* ImageView.swift in Sources */,
+				ABA716AD28776DC90043AF7E /* ActivityTitleView.swift in Sources */,
+				AB600D5128760117009B5D63 /* TimeInfoModel.swift in Sources */,
 				AB600D342875FDE8009B5D63 /* FEMTimeTrackingDashboardApp.swift in Sources */,
+				AB600D5D28761B7C009B5D63 /* RobsonView.swift in Sources */,
+				ABA716A128772EAA0043AF7E /* ActivityHoursView.swift in Sources */,
+				AB600D5F28761B8B009B5D63 /* NameView.swift in Sources */,
+				ABA7169928772BF10043AF7E /* ActivityView.swift in Sources */,
+				AB600D5928760754009B5D63 /* ViewModel.swift in Sources */,
+				ABA716A52877304B0043AF7E /* ActivityEllipisView.swift in Sources */,
+				AB600D532876015B009B5D63 /* TimeFramesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +400,11 @@
 				DEVELOPMENT_TEAM = 25MBFXXLA7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FEMTimeTrackingDashboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,9 +431,11 @@
 				DEVELOPMENT_TEAM = 25MBFXXLA7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FEMTimeTrackingDashboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +447,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
