@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RobsonView: View {
+    @StateObject var vm = ViewModel()
     var body: some View {
         ZStack {
             VStack{
@@ -35,7 +36,10 @@ struct RobsonView: View {
                     TimeFrameView(title: "Monthly")
                     }
                 )
-            }.padding()
+               
+            }
+            //.padding()
+            
         }
     }
 }
@@ -43,5 +47,7 @@ struct RobsonView: View {
 struct RobsonView_Previews: PreviewProvider {
     static var previews: some View {
         RobsonView()
+            .environmentObject(ViewModel())
+           
     }
 }

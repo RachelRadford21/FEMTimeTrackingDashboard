@@ -9,13 +9,13 @@ import SwiftUI
 
 struct AllActivityCardsView: View {
 
-    @EnvironmentObject var vm: ViewModel
+    @StateObject var vm = ViewModel()
 
     var body: some View {
-   
-       RectCardView()
-           
-
+        VStack{
+        RectCardView()
+                
+        }
     }
 
 }

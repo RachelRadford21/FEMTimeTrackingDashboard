@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-   
-    @EnvironmentObject var vm: ViewModel
-  
+    
+    @StateObject var vm = ViewModel()
     var body: some View {
         ZStack {
             Color.darkDarkBlue.ignoresSafeArea()
             ScrollView {
-        VStack {
-            RobsonView()
-            AllActivityCardsView()
-
-        }.padding()
-            }
+             
+                VStack(spacing: 10) {
+                    RobsonView()
+                        
+                    RectCardView(vm: vm)
+                        
+                }
+                .padding()
+                
+                }
         }
     }
 }

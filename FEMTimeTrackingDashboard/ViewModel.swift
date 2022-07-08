@@ -12,7 +12,7 @@ class ViewModel: ObservableObject {
     @Published var timeFrames = [TimeInfo]()
     @Published var isTapped = false
    @Published var titleArray = []
-    @Published var info = Bundle.main.decode([TimeInfo].self, from: "data.json")
+   
 
  
     

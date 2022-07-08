@@ -9,10 +9,8 @@ import SwiftUI
 
 struct TimePeriodView: View {
     var timePeriod = ""
-  var weeklyHrs = 0
-
+    var weeklyHrs = 0
     var body: some View {
-   
             Text("\(timePeriod) - \(weeklyHrs)hrs")
                 .foregroundColor(Color.white.opacity(0.5))
                 .font(.custom("Rubik-Regular", size: 15))

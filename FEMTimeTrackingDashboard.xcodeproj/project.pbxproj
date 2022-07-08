@@ -20,14 +20,11 @@
 		AB600D5128760117009B5D63 /* TimeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5028760117009B5D63 /* TimeInfoModel.swift */; };
 		AB600D532876015B009B5D63 /* TimeFramesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D522876015B009B5D63 /* TimeFramesModel.swift */; };
 		AB600D5528760169009B5D63 /* DailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5428760169009B5D63 /* DailyModel.swift */; };
-		AB600D57287601F7009B5D63 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D56287601F7009B5D63 /* Helper.swift */; };
 		AB600D5928760754009B5D63 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5828760754009B5D63 /* ViewModel.swift */; };
 		AB600D5D28761B7C009B5D63 /* RobsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5C28761B7C009B5D63 /* RobsonView.swift */; };
 		AB600D5F28761B8B009B5D63 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D5E28761B8B009B5D63 /* NameView.swift */; };
 		AB600D6128761D23009B5D63 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D6028761D23009B5D63 /* ImageView.swift */; };
 		AB600D6328761E24009B5D63 /* TimeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600D6228761E24009B5D63 /* TimeFrameView.swift */; };
-		ABA71695287714280043AF7E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA71694287714280043AF7E /* CardView.swift */; };
-		ABA7169928772BF10043AF7E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7169828772BF10043AF7E /* ActivityView.swift */; };
 		ABA7169D28772DC70043AF7E /* TopActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7169C28772DC70043AF7E /* TopActivityCardView.swift */; };
 		ABA716A128772EAA0043AF7E /* ActivityHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A028772EAA0043AF7E /* ActivityHoursView.swift */; };
 		ABA716A328772F190043AF7E /* TimePeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA716A228772F190043AF7E /* TimePeriodView.swift */; };
@@ -53,14 +50,11 @@
 		AB600D5028760117009B5D63 /* TimeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInfoModel.swift; sourceTree = "<group>"; };
 		AB600D522876015B009B5D63 /* TimeFramesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFramesModel.swift; sourceTree = "<group>"; };
 		AB600D5428760169009B5D63 /* DailyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyModel.swift; sourceTree = "<group>"; };
-		AB600D56287601F7009B5D63 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		AB600D5828760754009B5D63 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AB600D5C28761B7C009B5D63 /* RobsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobsonView.swift; sourceTree = "<group>"; };
 		AB600D5E28761B8B009B5D63 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 		AB600D6028761D23009B5D63 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		AB600D6228761E24009B5D63 /* TimeFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrameView.swift; sourceTree = "<group>"; };
-		ABA71694287714280043AF7E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		ABA7169828772BF10043AF7E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		ABA7169C28772DC70043AF7E /* TopActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopActivityCardView.swift; sourceTree = "<group>"; };
 		ABA716A028772EAA0043AF7E /* ActivityHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHoursView.swift; sourceTree = "<group>"; };
 		ABA716A228772F190043AF7E /* TimePeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePeriodView.swift; sourceTree = "<group>"; };
@@ -107,10 +101,7 @@
 				ABA7169728772B770043AF7E /* ActivityCardView */,
 				AB600D5828760754009B5D63 /* ViewModel.swift */,
 				AB600D4F287600EE009B5D63 /* Model */,
-				AB600D56287601F7009B5D63 /* Helper.swift */,
 				AB600D412875FF27009B5D63 /* data.json */,
-				ABA71694287714280043AF7E /* CardView.swift */,
-				ABA7169828772BF10043AF7E /* ActivityView.swift */,
 				AB600D452875FFE2009B5D63 /* Fonts */,
 				AB600D372875FDE9009B5D63 /* Assets.xcassets */,
 				AB600D392875FDE9009B5D63 /* Preview Content */,
@@ -249,9 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA716A7287731AD0043AF7E /* AllActivityCardsView.swift in Sources */,
-				ABA71695287714280043AF7E /* CardView.swift in Sources */,
 				AB600D362875FDE8009B5D63 /* ContentView.swift in Sources */,
-				AB600D57287601F7009B5D63 /* Helper.swift in Sources */,
 				ABA716A928775C0B0043AF7E /* RectCardView.swift in Sources */,
 				AB600D5528760169009B5D63 /* DailyModel.swift in Sources */,
 				ABA7169D28772DC70043AF7E /* TopActivityCardView.swift in Sources */,
@@ -265,7 +254,6 @@
 				AB600D5D28761B7C009B5D63 /* RobsonView.swift in Sources */,
 				ABA716A128772EAA0043AF7E /* ActivityHoursView.swift in Sources */,
 				AB600D5F28761B8B009B5D63 /* NameView.swift in Sources */,
-				ABA7169928772BF10043AF7E /* ActivityView.swift in Sources */,
 				AB600D5928760754009B5D63 /* ViewModel.swift in Sources */,
 				ABA716A52877304B0043AF7E /* ActivityEllipisView.swift in Sources */,
 				AB600D532876015B009B5D63 /* TimeFramesModel.swift in Sources */,

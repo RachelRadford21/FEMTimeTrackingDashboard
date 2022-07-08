@@ -8,35 +8,37 @@
 import SwiftUI
 
 struct TopActivityCardView: View {
-  
-    @EnvironmentObject var vm: ViewModel
+   // @EnvironmentObject var vm: ViewModel
+  @StateObject var vm = ViewModel()
    var timePeriod = ""
     
     var body: some View {
-        
+      
+        ZStack {
         ScrollView{
-        ForEach(vm.fetch(), id: \.title) { item in
+            ForEach(vm.fetch(), id: \.title) { item in
         RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(Color.darkBlue)
             .frame(height: 120, alignment: .center)
             .padding(.top, 80)
-
             .overlay(
-                ActivityTitleView(activityTitle: item.title)
 
+                ActivityTitleView(activityTitle: item.title)
             ).overlay(
                 ActivityHoursView(workHours: item.timeframes.weekly.current)
-
             ).overlay(
                 ActivityEllipisView()
             ).overlay(
                 TimePeriodView(timePeriod: "Last Week", weeklyHrs: item.timeframes.weekly.previous)
+              )
+            }
+            
+          }
+            
+        }
 
-            )
-        }
-        }
-        }
-    }
+     }
+}
     
 
 
